@@ -19,7 +19,7 @@
     "grunt-contrib-less": "0.7.0",
     "grunt-contrib-requirejs": "0.4.1",
     "grunt-nodemon": "0.1.1",
-    "grunt-jsbeautifier": "0.2.2"
+    "grunt-jsbeautifier": "0.2.7"
   },
   "devDependencies": {
     "bower": "1.2.7",
