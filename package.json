@@ -8,7 +8,9 @@
   },
   "scripts": {
     "postinstall": "bower install",
-    "test": "grunt verify --verbose"
+    "test": "grunt verify --verbose",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "grunt": "0.4.1",
@@ -16,13 +18,15 @@
     "grunt-contrib-jshint": "0.7.1",
     "grunt-contrib-watch": "0.5.3",
     "grunt-contrib-jade": "0.8.0",
-    "grunt-contrib-less": "0.7.0",
+    "grunt-contrib-less": "1.0.0",
     "grunt-contrib-requirejs": "0.4.1",
     "grunt-nodemon": "0.1.1",
-    "grunt-jsbeautifier": "0.2.2"
+    "grunt-jsbeautifier": "0.2.2",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "bower": "1.2.7",
     "grunt-cli": "0.1.11"
-  }
+  },
+  "snyk": true
 }
